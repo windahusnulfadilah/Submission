@@ -12,6 +12,7 @@ use App\Http\Controllers\PostController;
 | routes are loaded by the RouteServiceProvider within a group which
 | is assigned the "api" middleware group. Enjoy building your API!
 |
+    ini submission1 laravel
 */
 
 Route::get('posts', [PostController::class, 'index']);
